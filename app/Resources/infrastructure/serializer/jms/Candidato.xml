@@ -1,0 +1,14 @@
+<serializer>
+    <class name="Domain\Model\Candidato">
+        <property name="nome" type="string" groups="default" />
+        <property name="email" type="string" groups="default" />
+        <property name="telefone" type="string" groups="default" />
+        <property name="curriculo" type="string" groups="default" />
+        <property name="habilidadesTecnicas" groups="default">
+            <type><![CDATA[ArrayCollection<Domain\Model\HabilidadeTecnica>]]></type>
+        </property>
+        <property name="experienciasProfissionais" groups="default">
+            <type><![CDATA[ArrayCollection<Domain\Model\ExperienciaProfissional>]]></type>
+        </property>
+    </class>
+</serializer>

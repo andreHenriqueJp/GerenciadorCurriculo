@@ -1,0 +1,9 @@
+<serializer>
+    <class name="Domain\Model\ExperienciaProfissional">
+        <property name="cargo" type="string" groups="default" />
+        <property name="descricao" type="string" groups="default" />
+        <property name="periodoInicial" type="DateTime" groups="default" />
+        <property name="periodoFinal" type="DateTime" groups="default" />
+        <property name="trabalhoAtual" type="boolean" groups="default" />
+    </class>
+</serializer>

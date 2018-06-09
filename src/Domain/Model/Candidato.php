@@ -33,10 +33,16 @@ class Candidato
      */
     private $telefone;
 
+
     /**
      * @var string
      */
     private $curriculo;
+
+    /**
+     * @var string
+     */
+    private $cpf;
 
     /**
      * @var Collection
@@ -47,4 +53,33 @@ class Candidato
      * @var Collection
      */
     private $experienciasProfissionais;
+
+
+    /**
+     * @return string
+     */
+    public function getCpf()
+    {
+        return $this->cpf;
+    }
+
+    /**
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+
+
+
 }

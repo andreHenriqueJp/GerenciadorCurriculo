@@ -14,7 +14,7 @@ use JMS\Serializer\Annotation as Serializer;
 class Oportunidade
 {
     /**
-     * @var id;
+     * @var int;
      */
     private $idOportunidade;
     /**
@@ -73,6 +73,14 @@ class Oportunidade
     public function getPeriodoFinal()
     {
         return $this->periodoFinal;
+    }
+
+    /**
+     * @return id
+     */
+    public function getIdOportunidade()
+    {
+        return $this->idOportunidade;
     }
 
 
